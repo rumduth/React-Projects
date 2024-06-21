@@ -1,0 +1,10 @@
+.step {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.step > button {
+  margin: 0px 10px;
+}
