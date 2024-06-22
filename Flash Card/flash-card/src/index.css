@@ -1,0 +1,22 @@
+.flash-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: azure;
+}
+
+.flash-cards > div {
+  display: flex;
+  width: 30%;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: aquamarine;
+}
+
+.flash-cards > div:hover {
+  background-color: darkcyan;
+}

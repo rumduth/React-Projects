@@ -14,7 +14,7 @@ function DateDisplay() {
 
   const [step, setStep] = useState(0);
   const [count, setCount] = useState(0);
-  const [date, setDate] = useState(new Date().getTime());
+  const [date, setDate] = useState(new Date().getDate());
 
   function dateIncrease() {
     setStep((step) => {
