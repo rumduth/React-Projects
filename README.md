@@ -18,22 +18,33 @@ Hello, I present several React projects I successfully worked on, ranging from b
 
    - **Status**: Done
    - **Difficulty**: 2/5
-     The program is a simple React application that displays a date and allows the user to adjust this date by changing two variables: step and count. The purpose of the program is to provide an interface where users can increment or decrement these two variables and see the resulting change in the displayed date
+
+   The program is a simple React application that displays a date and allows the user to adjust this date by changing two variables: step and count. The purpose of the program is to provide an interface where users can increment or decrement these two variables and see the resulting change in the displayed date
 
 4. **Steps**
 
    - **Status**: Done
    - **Difficulty**: 2/5
-     This React application renders a set of steps with messages and allows users to navigate through these steps using buttons
+
+   This React application renders a set of steps with messages and allows users to navigate through these steps using buttons
 
 5. **Flash card**
 
    - **Status**: Done
    - **Difficulty**: 2/5
-     In essence, this React application serves as an interactive study aid using flashcards, focusing specifically on React concepts from the questions array. Users can click on each card to reveal answers, helping them learn and reinforce their understanding of React principles.
+
+   In essence, this React application serves as an interactive study aid using flashcards, focusing specifically on React concepts from the questions array. Users can click on each card to reveal answers, helping them learn and reinforce their understanding of React principles.
 
 6. **Date Counter 2**
 
    - **Status**: Done
    - **Difficulty**: 2/5
-     This application is a Date Calculator. It helps users find dates a specific number of days from today, either in the future or past. Users can adjust the step value and count of days, and the date updates in real-time. There is also a reset button to revert to the current date and default settings.
+
+   This application is a Date Calculator. It helps users find dates a specific number of days from today, either in the future or past. Users can adjust the step value and count of days, and the date updates in real-time. There is also a reset button to revert to the current date and default settings.
+
+7. **Trip List**
+
+   - **Status**: Done
+   - **Difficulty**: 3/5
+
+   This React application is designed to simplify trip preparation by allowing users to create, manage, and organize their packing lists efficiently. Users can add items with descriptions and quantities, ensuring comprehensive planning. Interactive controls enable easy deletion of items and toggling of their packed status, enhancing user control and organization. The application offers versatile sorting capabilities based on input order, quantity, description, and packed status, enabling users to prioritize items effectively. Visual indicators, such as checkboxes for packed items, provide at-a-glance tracking of packing progress. Dynamically generated statistics offer insights into total items, items packed, and completion percentage, aiding users in monitoring their readiness. Built with accessibility in mind, the application supports keyboard navigation and screen reader compatibility, ensuring usability for all. Further enhancements could include input validation and data persistence to improve functionality and user experience.

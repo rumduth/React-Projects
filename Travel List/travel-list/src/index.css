@@ -44,6 +44,16 @@ h1 {
   padding: 2.4rem 0;
 }
 
+h1 > span {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-family: none;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  word-spacing: 1px;
+}
+
 .add-form {
   background-color: #e5771f;
   padding: 2.8rem 0;
