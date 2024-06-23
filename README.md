@@ -60,3 +60,5 @@ Hello, I present several React projects I successfully worked on, ranging from b
 
    - **Status**: Progress
    - **Difficulty**: 2/5
+
+   This application provides a straightforward way for users to calculate and split tips based on their satisfaction with service, enhancing transparency and convenience in bill management scenarios, such as dining out or shared expenses. It leverages React's state management and component-based structure to maintain a responsive and intuitive user experience.
