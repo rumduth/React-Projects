@@ -48,3 +48,15 @@ Hello, I present several React projects I successfully worked on, ranging from b
    - **Difficulty**: 3/5
 
    This React application is designed to simplify trip preparation by allowing users to create, manage, and organize their packing lists efficiently. Users can add items with descriptions and quantities, ensuring comprehensive planning. Interactive controls enable easy deletion of items and toggling of their packed status, enhancing user control and organization. The application offers versatile sorting capabilities based on input order, quantity, description, and packed status, enabling users to prioritize items effectively. Visual indicators, such as checkboxes for packed items, provide at-a-glance tracking of packing progress. Dynamically generated statistics offer insights into total items, items packed, and completion percentage, aiding users in monitoring their readiness. Built with accessibility in mind, the application supports keyboard navigation and screen reader compatibility, ensuring usability for all. Further enhancements could include input validation and data persistence to improve functionality and user experience.
+
+8. **Accordion Component**
+
+   - **Status**: Done
+   - **Difficulty**: 1/5
+
+   The application's primary purpose is to provide an interactive and user-friendly interface for displaying a list of FAQs. Users can click on each FAQ title to expand or collapse its content, allowing them to quickly find and read relevant information. This design helps improve user experience by reducing clutter and presenting information in a structured and accessible manner.
+
+9. **Tip Calculator**
+
+   - **Status**: Progress
+   - **Difficulty**: 2/5
