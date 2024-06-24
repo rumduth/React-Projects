@@ -58,7 +58,14 @@ Hello, I present several React projects I successfully worked on, ranging from b
 
 9. **Tip Calculator**
 
-   - **Status**: Progress
+   - **Status**: Done
    - **Difficulty**: 2/5
 
    This application provides a straightforward way for users to calculate and split tips based on their satisfaction with service, enhancing transparency and convenience in bill management scenarios, such as dining out or shared expenses. It leverages React's state management and component-based structure to maintain a responsive and intuitive user experience.
+
+10. **Eat N Split**
+
+- **Status**: Done
+- **Difficulty**: 3/5
+
+  It outlines the creation of an app designed to help users manage and split bills among friends. It maintains a list of friends with details such as names, images, and current balances. Users can add new friends and select existing ones to share bills. The app allows users to input the total bill amount, specify their own expense, and choose who paid the bill. The balances are then updated to reflect the new debts or credits among friends. This app aims to simplify the process of sharing expenses and keeping track of financial exchanges within a group, ensuring transparency and fairness.
