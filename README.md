@@ -69,3 +69,10 @@ Hello, I present several React projects I successfully worked on, ranging from b
 - **Difficulty**: 3/5
 
   It outlines the creation of an app designed to help users manage and split bills among friends. It maintains a list of friends with details such as names, images, and current balances. Users can add new friends and select existing ones to share bills. The app allows users to input the total bill amount, specify their own expense, and choose who paid the bill. The balances are then updated to reflect the new debts or credits among friends. This app aims to simplify the process of sharing expenses and keeping track of financial exchanges within a group, ensuring transparency and fairness.
+
+11. **Text Expander**
+
+- **Status**: Done
+- **Difficulty**: 1/5
+
+The TextExpander component is useful for displaying long pieces of text in a web application where the initial view is limited to a preview, and users can expand to read more if interested. This is a common pattern in news articles, blog posts, FAQs, and anywhere large amounts of text need to be managed efficiently for a better user experience.
