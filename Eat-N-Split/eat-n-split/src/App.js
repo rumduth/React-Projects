@@ -27,10 +27,7 @@ export default function App() {
   const [shareBill, setShareBills] = useState(
     Array.from({ length: initialFriends.length }, () => false)
   );
-  let friendShareBillIndex = -1;
-  for (let i = 0; i < shareBill.length; i++) {
-    if (shareBill[i] === true) friendShareBillIndex = i;
-  }
+  let friendShareBillIndex = shareBill.findIndex((e) => e === true);
 
   const handleSelectFriend = function (index) {
     const updateShare = shareBill.map((v, i) => (i === index ? !v : false));
@@ -73,6 +70,7 @@ export default function App() {
       </div>
       {friendShareBillIndex != -1 && (
         <FormSplitBill
+          key={friendShareBillIndex}
           onSplitBill={handleSplitBill}
           name={friends[friendShareBillIndex].name}
         />
