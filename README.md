@@ -76,3 +76,24 @@ Hello, I present several React projects I successfully worked on, ranging from b
 - **Difficulty**: 1/5
 
 The TextExpander component is useful for displaying long pieces of text in a web application where the initial view is limited to a preview, and users can expand to read more if interested. This is a common pattern in news articles, blog posts, FAQs, and anywhere large amounts of text need to be managed efficiently for a better user experience.
+
+11. **usePopcorn**
+
+- **Status**: Done
+- **Difficulty**: 4/5
+
+# Movie Rating and Review Application
+
+This application is designed for users to search, rate, and review movies. It offers a seamless user experience for finding movie details and keeping track of watched films.
+
+## Key Features
+
+- **Movie Search**: Allows users to search for movies using the OMDB API, displaying results with basic details such as title, year, and poster.
+
+- **Movie Details**: Provides comprehensive information on selected movies, including plot, genre, director, actors, IMDb rating, and user rating.
+
+- **Rating System**: Users can rate movies on a scale of 1 to 10, with the ratings being stored and displayed alongside IMDb ratings.
+
+- **Watched Movies**: Users can add movies to their watched list, view a summary of watched movies, and see average ratings and runtime.
+
+- **Interactive UI**: Features a dynamic and interactive user interface with components like search bar, movie list, movie details, and watched summary, enhancing user engagement and ease of use.

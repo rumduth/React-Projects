@@ -54,7 +54,7 @@ body {
   max-width: 42rem;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
-  /* overflow: scroll;l */
+  overflow: scroll;
   position: relative;
 }
 
@@ -288,6 +288,8 @@ body {
   font-weight: 600;
   display: flex;
   flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
   gap: 2.4rem;
 }
 
