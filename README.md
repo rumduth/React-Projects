@@ -118,3 +118,15 @@ This application allows users to convert currencies based on real-time exchange 
 - Currency Selection: Allows users to select both the source and target currencies from a predefined list including USD, EUR, CAD, and INR.
 
 - Responsive UI: The interface adjusts dynamically based on user interactions, disabling input fields during loading and enabling them once conversion data is fetched.
+
+14. **Geolocation**
+
+- **Status**: Done
+- **Difficulty**: 2/5
+- Functionality: This React application allows users to request their GPS position by clicking a button.
+- Components:
+  - `App`: Main component managing state (`count`, `isLoadng`, `position`) and rendering UI elements based on state changes.
+  - `Load`: Component displaying a "Loading..." message when `isLoadng` is true.
+- Hooks:
+  - `useState` and `useEffect` from React are used for managing state and performing side effects.
+  - `useCustomHook` is a custom hook imported from `useCustomHook.js`, used to handle GPS position fetching and loading state management.
