@@ -130,3 +130,18 @@ This application allows users to convert currencies based on real-time exchange 
 - Hooks:
   - `useState` and `useEffect` from React are used for managing state and performing side effects.
   - `useCustomHook` is a custom hook imported from `useCustomHook.js`, used to handle GPS position fetching and loading state management.
+
+15. **Classy Weather**
+
+- **Status**: Done
+- **Difficulty**: 2/5
+
+- Classy Weather is a sleek and intuitive weather forecasting app that provides real-time weather updates based on your location. It features daily weather details with easy-to-understand icons and temperature ranges. The app remembers your last searched location for convenience and offers accurate, location-based forecasts. Stay informed about the weather with Classy Weather's simple yet powerful interface.
+
+- Location-based Weather Forecasting: Users can enter a location, and the app fetches the weather forecast for that specific location using geocoding to determine the latitude and longitude.
+
+- Daily Weather Details: The app displays daily weather details including weather icons, maximum and minimum temperatures, and a textual representation of the day (e.g., "Today," "Mon," "Tue").
+
+- Weather Icons: The app includes functionality to map weather condition codes to corresponding weather icons (e.g., ☀️ for clear sky, 🌧 for rain).
+
+- Persistent Location Storage: The app saves the last searched location in local storage so that the location is remembered and automatically fetched the next time the app is opened.
