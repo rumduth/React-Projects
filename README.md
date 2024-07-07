@@ -145,3 +145,19 @@ This application allows users to convert currencies based on real-time exchange 
 - Weather Icons: The app includes functionality to map weather condition codes to corresponding weather icons (e.g., ☀️ for clear sky, 🌧 for rain).
 
 - Persistent Location Storage: The app saves the last searched location in local storage so that the location is remembered and automatically fetched the next time the app is opened.
+
+  16.**React Quiz**
+
+- **Status**: Done
+- **Difficulty**: 3/5
+- This quiz application offers an engaging way to test your knowledge with a variety of questions fetched from a server. Users start by loading questions, progressing through them with a timer adding an element of challenge. Track your score as you answer each question, with points awarded or deducted based on accuracy. Upon completion, view your final score and compare it with your highest achieved score stored locally. Enjoy a seamless experience with intuitive navigation and responsive design in this interactive quiz environment.
+
+- Fetching and Displaying Questions: The app fetches a list of quiz questions from a backend server and displays them to the user. It handles loading states and errors during data fetching.
+
+- Progress Tracking:The app tracks the user's progress through the quiz, showing the current question index, the total number of questions, and the user's current score.
+
+- Timed Quiz: The app includes a timer that gives users a limited amount of time to complete the quiz. The timer decreases as the user progresses through the questions.
+
+- Scoring and High Scores: The app calculates the user's score based on correct and incorrect answers. It keeps track of the highest score achieved using local storage to provide a high score feature.
+
+- Restart and Finish Screens: The app provides a finish screen that shows the user's final score, total possible points, and the highest score. Users can restart the quiz from this screen.
