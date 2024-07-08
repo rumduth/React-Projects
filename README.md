@@ -161,3 +161,16 @@ This application allows users to convert currencies based on real-time exchange 
 - Scoring and High Scores: The app calculates the user's score based on correct and incorrect answers. It keeps track of the highest score achieved using local storage to provide a high score feature.
 
 - Restart and Finish Screens: The app provides a finish screen that shows the user's final score, total possible points, and the highest score. Users can restart the quiz from this screen.
+
+  17.**Bank Account**
+
+- **Status**: Done
+- **Difficulty**: 2/5
+
+This React component implements a simple banking application using the useReducer hook. It allows users to perform various banking operations such as opening an account, depositing money, withdrawing money, requesting a loan, paying back a loan, and closing an account. The app maintains the state of the account, including whether it is open, the current balance, and any outstanding loan amount.
+Features:
+
+- Open Account: Users can open an account with an initial balance of $500.
+- Deposit: Users can deposit $150 into their account.
+- Withdraw: Users can withdraw $50 from their account, provided they have sufficient balance.
+- Loan Management: Users can request a loan of $800 and pay it back, subject to certain conditions.
