@@ -1,14 +1,11 @@
-import { useQuizzes } from "../contexts/QuizContext";
-
-export default function Options() {
-  const { index, questions, dispatch, answer } = useQuizzes();
+export default function Options({ questions, dispatch, answer }) {
   return (
     <div className="options">
-      {questions[index].options.map((el, i) => (
+      {questions.options.map((el, i) => (
         <button
           className={`btn btn-option ${i === answer ? "answer" : ""} ${
             answer !== null
-              ? i === questions[index].correctOption
+              ? i === questions.correctOption
                 ? "correct"
                 : "wrong"
               : ""

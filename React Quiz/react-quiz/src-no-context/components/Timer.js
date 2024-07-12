@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { useQuizzes } from "../contexts/QuizContext";
 
 function convertSecondsToMMSS(seconds) {
   const minutes = Math.floor(seconds / 60);
@@ -12,8 +11,7 @@ function convertSecondsToMMSS(seconds) {
 }
 
 let id;
-export default function Timer() {
-  const { dispatch, timeRemaining } = useQuizzes();
+export default function Timer({ dispatch, timeRemaining }) {
   useEffect(function () {
     let id = setInterval(function () {
       dispatch({ type: "tick" });

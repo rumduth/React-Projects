@@ -1,8 +1,4 @@
-import { useQuizzes } from "../contexts/QuizContext";
-
-export default function NextButton() {
-  const { dispatch, index, questions } = useQuizzes();
-  const totalQuestions = questions.length;
+export default function NextButton({ dispatch, index, totalQuestions }) {
   return (
     <button
       className="btn btn-ui"
